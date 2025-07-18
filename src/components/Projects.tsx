@@ -10,7 +10,7 @@ const Projects = () => {
       description: "A real-time interactive map that tracks global flight paths, lets users simulate bomb deployments with custom parameters, and calculates potential collisions using vector math to alert endangered planes and suggest evasive action.",
       tech: ["React", "Node.js", "Typescript", "FastAPI","PortguseSQL"],
       github: "https://github.com/Avivs22/GoldenPathProject",
-      demo: "https://golden-path-project-9dahqy9iz-avivs22s-projects.vercel.app",
+      demo: "https://goldenpathfrontend.netlify.app/",
       featured: true
     },
     {
@@ -18,7 +18,7 @@ const Projects = () => {
       description: "A sleek, animated frontend dashboard built for a cybersecurity company that analyzes URLs for malicious behavior, showing detailed scan results by time, device, and threat level—with support for uploading new URLs for real-time analysis.",
       tech: ["React", "TypeScript", "FastAPI"],
       github: "https://github.com/Avivs22/planet9Job",
-      demo: "https://planet9-1xo855c1p-avivs22s-projects.vercel.app",
+      demo: "https://planet9job.netlify.app/",
       featured: true
     },
   ];
