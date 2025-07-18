@@ -18,7 +18,7 @@ const Projects = () => {
       description: "A sleek, animated frontend dashboard built for a cybersecurity company that analyzes URLs for malicious behavior, showing detailed scan results by time, device, and threat level—with support for uploading new URLs for real-time analysis.",
       tech: ["React", "TypeScript", "FastAPI"],
       github: "https://github.com/Avivs22/planet9Job",
-      demo: "https://planet9-1xo855c1p-avivs22s-projects.vercel.app/upload",
+      demo: "https://planet9-1xo855c1p-avivs22s-projects.vercel.app",
       featured: true
     },
   ];
