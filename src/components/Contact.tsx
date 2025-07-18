@@ -6,15 +6,13 @@ import { Mail, MapPin, Phone, Github, Linkedin, Twitter } from "lucide-react";
 
 const Contact = () => {
   const contactInfo = [
-    { icon: Mail, label: "Email", value: "hello@yourname.com", href: "mailto:hello@yourname.com" },
-    { icon: Phone, label: "Phone", value: "+1 (555) 123-4567", href: "tel:+15551234567" },
-    { icon: MapPin, label: "Location", value: "Your City, Country", href: "#" }
+    { icon: Mail, label: "Email", value: "avivsking10@gmail.com", href: "mailto:hello@yourname.com" },
+    { icon: Phone, label: "Phone", value: "+972586300406", href: "tel:+15551234567" },
+    { icon: MapPin, label: "Location", value: "Netanya,Israel", href: "#" }
   ];
 
   const socialLinks = [
-    { icon: Github, label: "GitHub", href: "https://github.com/yourusername" },
-    { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/yourprofile" },
-    { icon: Twitter, label: "Twitter", href: "https://twitter.com/yourusername" }
+    { icon: Github, label: "GitHub", href: "https://github.com/Avivs22" },
   ];
 
   return (
@@ -132,23 +130,6 @@ const Contact = () => {
                   </a>
                 ))}
               </div>
-            </CardContent>
-          </Card>
-
-          <Card className="glass border-border/50 hover:border-primary/50 transition-all duration-300">
-            <CardContent className="p-6">
-              <h3 className="text-xl font-semibold text-primary mb-3">Let's Work Together</h3>
-              <p className="text-muted-foreground mb-4">
-                I'm always interested in new opportunities and exciting projects. 
-                Whether you need a full-stack developer or want to collaborate on something amazing, 
-                I'd love to hear from you!
-              </p>
-              <Button 
-                variant="outline" 
-                className="glass border-primary/50 hover:bg-primary/10 hover:border-primary transition-all"
-              >
-                Download CV
-              </Button>
             </CardContent>
           </Card>
         </div>

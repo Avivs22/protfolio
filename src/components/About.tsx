@@ -3,15 +3,13 @@ import { Badge } from "@/components/ui/badge";
 
 const About = () => {
   const skills = [
-    "JavaScript", "TypeScript", "React", "Node.js", "Python", "PostgreSQL",
-    "MongoDB", "Docker", "AWS", "Next.js", "GraphQL", "Redis"
+    "JavaScript", "TypeScript", "React", "Node.js", "Python", "SQL", "Docker", "Next.js","C#"
   ];
 
   const stats = [
-    { label: "Years Experience", value: "5+" },
-    { label: "Projects Completed", value: "50+" },
-    { label: "Technologies", value: "20+" },
-    { label: "Happy Clients", value: "30+" }
+    { label: "Years Experience", value: "3+" },
+    { label: "Projects Completed", value: "5+" },
+    { label: "Technologies", value: "10+" },
   ];
 
   return (

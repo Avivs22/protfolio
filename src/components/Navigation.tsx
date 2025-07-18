@@ -39,7 +39,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="text-2xl font-bold">
             <span className="bg-gradient-cyber bg-clip-text text-transparent">
-              &lt;YourName /&gt;
+              &lt;Aviv Smadja /&gt;
             </span>
           </div>
 

@@ -6,53 +6,21 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, and real-time inventory tracking.",
-      tech: ["React", "Node.js", "MongoDB", "Stripe", "Socket.io"],
-      github: "#",
-      demo: "#",
+      title: "GoldenPath",
+      description: "A real-time interactive map that tracks global flight paths, lets users simulate bomb deployments with custom parameters, and calculates potential collisions using vector math to alert endangered planes and suggest evasive action.",
+      tech: ["React", "Node.js", "Typescript", "FastAPI","PortguseSQL"],
+      github: "https://github.com/Avivs22/GoldenPathProject",
+      demo: "https://golden-path-project-9dahqy9iz-avivs22s-projects.vercel.app",
       featured: true
     },
     {
-      title: "Task Management App",
-      description: "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      tech: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "WebSocket"],
-      github: "#",
-      demo: "#",
-      featured: false
-    },
-    {
-      title: "AI Chat Application",
-      description: "Intelligent chatbot application powered by OpenAI API with conversation history, context awareness, and custom training capabilities.",
-      tech: ["React", "Python", "FastAPI", "OpenAI", "Redis"],
-      github: "#",
-      demo: "#",
+      title: "SafeScan",
+      description: "A sleek, animated frontend dashboard built for a cybersecurity company that analyzes URLs for malicious behavior, showing detailed scan results by time, device, and threat level—with support for uploading new URLs for real-time analysis.",
+      tech: ["React", "TypeScript", "FastAPI"],
+      github: "https://github.com/Avivs22/planet9Job",
+      demo: "https://planet9-1xo855c1p-avivs22s-projects.vercel.app/upload",
       featured: true
     },
-    {
-      title: "Weather Dashboard",
-      description: "Real-time weather dashboard with location-based forecasts, interactive maps, and historical weather data visualization.",
-      tech: ["Vue.js", "D3.js", "Express", "Weather API", "Chart.js"],
-      github: "#",
-      demo: "#",
-      featured: false
-    },
-    {
-      title: "Social Media Analytics",
-      description: "Comprehensive analytics platform for social media performance tracking with automated reporting and insights generation.",
-      tech: ["React", "Python", "Django", "PostgreSQL", "AWS"],
-      github: "#",
-      demo: "#",
-      featured: true
-    },
-    {
-      title: "Portfolio Website",
-      description: "This very portfolio website built with React, Three.js, and modern web technologies to showcase my work and skills.",
-      tech: ["React", "Three.js", "TypeScript", "Tailwind", "Vite"],
-      github: "#",
-      demo: "#",
-      featured: false
-    }
   ];
 
   return (
@@ -114,6 +82,7 @@ const Projects = () => {
                   size="sm" 
                   variant="outline" 
                   className="flex-1 glass border-primary/50 hover:bg-primary/10 hover:border-primary transition-all"
+                  onClick={() => window.open(project.github, '_blank')}
                 >
                   <Github className="w-4 h-4 mr-2" />
                   Code
@@ -121,6 +90,7 @@ const Projects = () => {
                 <Button 
                   size="sm" 
                   className="flex-1 bg-primary hover:bg-primary/90 hover:shadow-neon transition-all"
+                  onClick={() => window.open(project.demo, '_blank')}
                 >
                   <ExternalLink className="w-4 h-4 mr-2" />
                   Demo

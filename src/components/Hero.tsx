@@ -19,7 +19,7 @@ const Hero = () => {
             <span className="text-glow">Hello, I'm</span>
             <br />
             <span className="bg-gradient-cyber bg-clip-text text-transparent text-glow">
-              Your Name
+              Aviv Smadja
             </span>
           </h1>
           
